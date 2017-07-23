@@ -1,0 +1,32 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+	background: darkcyan;
+}
+.container{
+  width: 70%;
+  margin: auto;
+  margin-top: 33px; 
+}
+[class^="jR3DCarouselGallery"]{
+	margin: 33px auto 155px auto; /* optional - if want to center align */
+  width: 70% !important;
+}
+.captions{
+	position: relative;
+  display: none;
+	padding: 4px 0;
+	bottom: 27px;
+	background: #ec1c8e;
+	/*display:block*/
+}
+h1, h2{
+  color: white;
+  text-align: center;
+}
+
+
